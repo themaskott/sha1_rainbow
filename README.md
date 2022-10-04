@@ -17,11 +17,12 @@ Require to use a clean passwords dictionary, with one word per line
 
 `gcc *.c -o rain -lssl -lcrypto`
 
-Output is `rainbow.txt` file
 
 ## Generate rainbow table
 
 `./main -r rockyou_clean.txt`
+
+Output is `rainbow.txt` file
 
 Read input file line by line, and compute :
 
